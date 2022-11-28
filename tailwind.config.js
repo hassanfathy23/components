@@ -11,7 +11,8 @@ module.exports = {
   theme: {
     extend: {
      fontFamily: {
-      "roboto": ['roboto', 'sans-serif', ...defaultTheme.fontFamily.sans]
+      "roboto": ['roboto', 'sans-serif', ...defaultTheme.fontFamily.sans],
+      "noto": ["'Noto Sans'", "sans-serif", ...defaultTheme.fontFamily.sans]
      }
     },
   },
