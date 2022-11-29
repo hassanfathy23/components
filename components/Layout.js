@@ -6,7 +6,7 @@ function Layout({children}) {
            <div>this is nav</div>
            <div>this is nav</div>
         </nav> */}
-        <main className="p-4 flex flex-col gap-2 items-center">{children}</main>
+        <main className="p-4 flex flex-col gap-10 items-center">{children}</main>
         </>
      );
 }
