@@ -1,5 +1,16 @@
 import { Icon } from "@iconify/react";
 
+type AppProps = {
+  title: string,
+  startIcon?: string,
+  endIcon?: string,
+  variant?: string,
+  disableShadow?: boolean,
+  disabled?: boolean,
+  size?: string,
+  color?: string,
+}
+
 function EnhancedButton({
   title,
   startIcon,
@@ -9,7 +20,7 @@ function EnhancedButton({
   disabled,
   size,
   color,
-}) {
+}: AppProps) {
   function classesFunction() {
     let classesNames =
       "flex items-center gap-1 font-notto cursor-pointer border-2 rounded-md transition-all duration-300 ";

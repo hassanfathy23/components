@@ -1,6 +1,10 @@
 import Title from "./Title";
 
-function ButtonsList({ children }) {
+type AppProps = {
+  children: React.ReactNode
+}
+
+function ButtonsList({ children }: AppProps) {
   return (
     <>
       <Title title="Button Components" />
